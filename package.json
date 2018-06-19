@@ -1,0 +1,40 @@
+{
+  "name": "eslint-config-asch-base",
+  "version": "1.0.0",
+  "description": "Base eslint config for Asch projects.",
+  "author": "Asch Foundation <service@asch.io>, Peili Liang <liangpeili@asch.io>",
+  "license": "GPL-3.0",
+  "keywords": [
+    "eslint",
+    "asch"
+  ],
+  "homepage": "https://github.com/AschPlatform/eslint-config-asch-base#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AschPlatform/eslint-config-asch-base.git"
+  },
+  "bugs": {
+    "url": "https://github.com/AschPlatform/eslint-config-asch-base/issues"
+  },
+  "engines": {
+    "node": ">=6.11.1",
+    "npm": ">=3.10.0"
+  },
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint .",
+    "lint:fix": "eslint --fix ."
+  },
+  "devDependencies": {
+    "eslint": "=4.16.0",
+    "eslint-config-airbnb-base": "=12.1.0",
+    "eslint-plugin-import": "=2.8.0",
+    "eslint-plugin-mocha": "=4.11.0"
+  },
+  "peerDependencies": {
+    "eslint": "^4.16.0",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-mocha": "^4.11.0"
+  }
+}
