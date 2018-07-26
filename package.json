@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-asch-base",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Base eslint config for Asch projects.",
   "author": "Asch Foundation <service@asch.io>, Peili Liang <liangpeili@asch.io>",
   "license": "GPL-3.0",
