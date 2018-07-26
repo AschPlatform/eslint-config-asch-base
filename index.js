@@ -2,7 +2,7 @@ module.exports = {
   extends: ['airbnb-base'],
   env: {
     browser: true,
-    node: true
+    node: true,
   },
   rules: {
     semi: [2, 'never'],
@@ -18,6 +18,6 @@ module.exports = {
     'default-case': 'off',
     'prefer-destructuring': 0,
     'no-continue': 0,
-    'no-param-reassign': 0
-  }
+    'no-param-reassign': 0,
+  },
 }
