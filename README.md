@@ -7,7 +7,7 @@ npm install --save-dev eslint-config-asch-base
 
 ## 使用
 
-在项目目录的 .eslintrc 添加如下配置：
+在项目目录的 .eslintrc.json 添加如下配置：
 
 {
   "extends": ["asch-base"]
